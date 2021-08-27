@@ -1,0 +1,71 @@
+
+
+
+/* BUTTTON DEFAULT FORMAT */
+.splash-button {
+  display: inline-block;
+  font-weight: 350;
+  font-size: 120%;
+  border: 0px;
+  border-radius: 2px;
+  padding: 5px 20px;
+ 
+  background-color: #f9f2fc;
+  transition: background-color 1s, color 0.5s, border 1s;
+}
+
+
+.splash-page-buttons {
+  text-align: center;
+  background-color: #f9f2fc;
+
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.splash-button:active,
+.splash-button:hover,
+.splash-button:focus {
+  background-color: #4717f6;
+  color: white;
+  border-color: transparent;
+}
+
+.splash-page-info {
+  margin-top: 5px;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  border-radius: 6px;
+  background-color: #ff880094;
+  padding-left: 1%;
+  padding-top: 9px;
+  padding-bottom: 15px;
+  letter-spacing: 0.06em;
+}
+
+.info-scroll-frame {
+  padding-top: 0px;
+  margin-left: 22%;
+  margin-right: 22%;
+  
+}
+
+/* ________________________________________________________ */
+/*                  INFO BLOCK SPECIFIC CSS                 */
+
+.description-header {
+  font-weight: 300;
+}
+
+p {
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin-top: 2px;
+}
+
+.section-header {
+  font-size: 140%;
+  font-weight: 300;
+}
+

@@ -1,0 +1,51 @@
+.game-card-header {
+    background-color: #4717f6;
+    color: white;
+    font-weight: 300;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 15px;
+    font-size: 130%;
+}
+
+.game-card {
+    border-color: #4717f6;
+    box-shadow: -5px 5px rgba(0, 0, 0, 0.089);
+    transition: transform .4s;
+    margin-bottom: 10px;
+}
+
+.game-card:hover {
+    transform: scale(1.03);
+}
+
+.admin-button {
+    border-color: #4717f6;
+    border-width: 2px;
+    background-color: transparent;
+    padding: 4px 2px;
+    color: #4717f6;
+    background-color: white;
+}
+
+.admin-button:hover {
+    border-color: #4717f6;
+    border-width: 2px;
+    background-color: #4717f6;
+    padding: 4px 2px;
+    color: white;
+}
+
+.radio-input {
+    margin-right: 10px;
+}
+
+.bundles-array {
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.bundles-container {
+    margin-left: 1%;
+    margin-right: 1%;
+}
